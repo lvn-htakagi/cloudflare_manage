@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <button id="btn">バックエンドを呼び出す</button>
+    <p id="result"></p>
+
+    <script>
+      document.getElementById("btn").addEventListener("click", async () => {
+        const res = await fetch("/api/hello");
+        const data = await res.json();
+        document.getElementById("result").textContent = data.message;
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "cloudflare_manage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvn-htakagi/cloudflare_manage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lvn-htakagi/cloudflare_manage/issues"
+  },
+  "homepage": "https://github.com/lvn-htakagi/cloudflare_manage#readme",
+  "devDependencies": {
+    "wrangler": "^4.134.0"
+  }
+}
