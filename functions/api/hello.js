@@ -1,4 +1,4 @@
-import { dayjs } from "dayjs";
+import dayjs from "dayjs";
 
 export async function onRequest(context) {
   // サーバー側のターミナルにログが出力されます
